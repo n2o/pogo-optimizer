@@ -1,6 +1,6 @@
 # Pokemon GO Optimizer with Docker support
 
-[![Travis CI](https://api.travis-ci.org/n2o/django-skeleton.svg?branch=master)](https://travis-ci.org/n2o/pogo-optimizer)
+[![Travis CI](https://api.travis-ci.org/n2o/pogo-optimizer.svg?branch=master)](https://travis-ci.org/n2o/pogo-optimizer)
 
 *I merged this Dockerfile into the original repository, so you can use directly his repository*
 
