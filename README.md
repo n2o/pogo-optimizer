@@ -2,6 +2,8 @@
 
 [![Travis CI](https://api.travis-ci.org/n2o/django-skeleton.svg?branch=master)](https://travis-ci.org/n2o/pogo-optimizer)
 
+*I merged this Dockerfile into the original repository, so you can use directly his repository*
+
 This is a fork from the [original project](https://github.com/justinleewells/pogo-optimizer), which enhances the installation experience. 
 
 ## Setup using Docker
