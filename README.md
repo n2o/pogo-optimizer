@@ -2,9 +2,18 @@
 
 [![Travis CI](https://api.travis-ci.org/n2o/pogo-optimizer.svg?branch=master)](https://travis-ci.org/n2o/pogo-optimizer)
 
-*I merged this Dockerfile into the original repository, so you can use directly his repository*
+*I merged this Dockerfile into the original repository, so you can directly use his repository. But I wrote a small script which updates this repository and therefore keeps the dockerhub image up-to-date*
 
 This is a fork from the [original project](https://github.com/justinleewells/pogo-optimizer), which enhances the installation experience. 
+
+## Setup with Dockerhub
+There is also an automated build on Dockerhub: [cmeter/pogo-optimizer](https://hub.docker.com/r/cmeter/pogo-optimizer/)
+
+So you don't need to clone the repository:
+
+```bash
+$ docker run -d -p 3000:3000 -p 8081:8081 -it cmeter/pogo-optimizer
+```
 
 ## Setup using Docker
 To install and setup everything using Docker, build the image in the root directory of this repository with:
@@ -22,15 +31,6 @@ Then create a container with the same ports as described above with this command
 
 ```bash
 $ docker run -d -p 3000:3000 -p 8081:8081 -it pogo
-```
-
-## Setup with Dockerhub
-There is also an automated build on Dockerhub: [cmeter/pogo-optimizer](https://hub.docker.com/r/cmeter/pogo-optimizer/)
-
-So you don't need to clone the repository:
-
-```bash
-$ docker run -d -p 3000:3000 -p 8081:8081 -it cmeter/pogo-optimizer
 ```
 
 ## Original Readme
