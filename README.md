@@ -7,7 +7,7 @@
 This is a fork from the [original project](https://github.com/justinleewells/pogo-optimizer), which enhances the installation experience. 
 
 ## Setup with Dockerhub
-There is also an automated build on Dockerhub: [cmeter/pogo-optimizer](https://hub.docker.com/r/cmeter/pogo-optimizer/)
+There is an automated build on Dockerhub: [cmeter/pogo-optimizer](https://hub.docker.com/r/cmeter/pogo-optimizer/)
 
 So you don't need to clone the repository:
 
