@@ -2,7 +2,7 @@
 
 [![Travis CI](https://api.travis-ci.org/n2o/pogo-optimizer.svg?branch=master)](https://travis-ci.org/n2o/pogo-optimizer)
 
-*I merged this Dockerfile into the original repository, so you can directly use his repository. But I wrote a small script which updates this repository and therefore keeps the dockerhub image up-to-date: [https://hub.docker.com/r/cmeter/pogo-optimizer/](https://hub.docker.com/r/cmeter/pogo-optimizer/)*
+[From the devs](https://github.com/justinleewells/pogo-optimizer): **This project is no longer being developed because as of July 30th Niantic has implemented SSL pinning, rendering this method useless. Happy hunting, everyone.**
 
 This is a fork from the [original project](https://github.com/justinleewells/pogo-optimizer), which enhances the installation experience. 
 
